@@ -1,7 +1,7 @@
 #goal
 
-A data-driven ring visualization + generative poem, built from an ecosystem's
-daily carbon flux and water-stress record. No audio in this build.
+A data-driven visualization + generative poem, built from an ecosystem's
+daily carbon flux and water-stress record. 
 
 ## Data
 
