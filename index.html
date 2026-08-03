@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ecosystem Ring &amp; Poem</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>a year, ringed</h1>
+  <div id="status"></div>
+
+  <div class="controls">
+    <label>year
+      <select id="year-select"></select>
+    </label>
+    <button id="play-btn">⏸ pause</button>
+    <input id="day-slider" type="range" min="0" max="364" value="0" />
+  </div>
+
+  <canvas id="ring-canvas" width="360" height="360"></canvas>
+  <div id="date-label"></div>
+  <div id="readout"></div>
+
+  <div id="poem"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/ring.js"></script>
+  <script src="js/poem.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
