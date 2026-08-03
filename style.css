@@ -1,0 +1,82 @@
+:root {
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #14181a;
+  color: #e8e6e1;
+  font-family: Georgia, "Iowan Old Style", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem 3rem;
+  gap: 1.25rem;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9c9890;
+  margin: 0;
+}
+
+#status {
+  color: #d97757;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+
+.controls select,
+.controls button {
+  background: #22282b;
+  color: #e8e6e1;
+  border: 1px solid #3a4247;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+#day-slider {
+  width: 320px;
+}
+
+#ring-canvas {
+  background: #1a1f21;
+  border-radius: 50%;
+}
+
+#date-label,
+#readout {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: #b7b3ab;
+  text-align: center;
+}
+
+#poem {
+  max-width: 34rem;
+  min-height: 6rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+#poem p {
+  margin: 0 0 1.1rem;
+}
+
+#poem p:last-child {
+  color: #e8e6e1;
+}
